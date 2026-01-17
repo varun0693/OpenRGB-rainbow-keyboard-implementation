@@ -1,6 +1,6 @@
 # OpenRGB Custom Rainbow Driver
 
-A lightweight C++ driver for OpenRGB that creates a smooth, software-controlled rainbow effect. Designed for devices that lack built-in hardware rainbow modes on linux software, such as the RGB keyboard of a laptop.
+A lightweight C++ driver for OpenRGB that creates a smooth, software-controlled rainbow effect. Designed for devices that lack built-in hardware rainbow modes on linux, such as the RGB keyboard of a laptop.
 
 ---
 
@@ -16,7 +16,7 @@ A lightweight C++ driver for OpenRGB that creates a smooth, software-controlled 
   Simple `rbow on` and `rbow off` commands.
 
 - **Clean Exit**  
-  Sets lights to static white when stopped, altough this is quite simple to customize.
+  Sets lights to static white when stopped, although this is quite simple to customize.
 
 ---
 
@@ -34,7 +34,7 @@ A lightweight C++ driver for OpenRGB that creates a smooth, software-controlled 
 ### 1. Clone the repository
 
     git clone https://github.com/varun0693/OpenRGB-rainbow-keyboard-implementation.git
-    cd OpenRGB-Rainbow-Driver
+    cd OpenRGB-rainbow-keyboard-implementation
 
 ### 2. Build the C++ driver
 
@@ -45,7 +45,7 @@ A lightweight C++ driver for OpenRGB that creates a smooth, software-controlled 
 
 ### 3. Set up the shortcut
 
-1. Open the file setup/bashrc_snippet.txt  
+1. Open the file ../shortcut-setup/bashrc_snippet.txt  
 2. Copy its contents  
 3. Paste it into your ~/.bashrc  
 4. Important: Edit REPO_PATH to match where you cloned this repository  
