@@ -1,0 +1,22 @@
+# =========================================================================================================================
+# DIRECTIONS:
+# 1. Open your bash configuration file by running:  nvim ~/.bashrc
+# 2. Scroll all the way to the bottom of the file.
+# 3. Press i to go into insert mode and type the code below.
+# 4. Exit insert mode by pressing esc, then type :wq to save and quit. Use another code editor if not comfortable with nvim.
+# 5. Reload your settings by running:  source ~/.bashrc
+# =========================================================================================================================
+
+# --- OpenRGB Rainbow Shortcuts ---
+rbow() {
+    # Path to the directory where repo is cloned
+    local REPO_PATH="$HOME/OpenRGB-rainbow-keyboard-implementation"
+
+    if [ "$1" == "on" ]; then
+        bash "$REPO_PATH/scripts/rainbow-on.sh"
+    elif [ "$1" == "off" ]; then
+        bash "$REPO_PATH/scripts/rainbow-off.sh"
+    else
+        echo "Usage: rbow [on | off]"
+    fi
+}
